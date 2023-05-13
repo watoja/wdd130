@@ -38,14 +38,25 @@ nav a:hover{
 h4{
     color:aqua ;
 }
-.book,.join{
+.book{
     color:#8ecae6 ;
     text-decoration: none;
 }
-.book:hover, .join:hover{
+.join{
+    color: #8ecae6;
+    text-decoration: none;
+}
+.book:hover{
+    color: #8ecae6 ;
+}
+.join:hover{
     color:#8ecae6 ;
 }
-.msg h2,.msg p{
+.msg h2{
+    color:aqua ;
+}
+
+.msg p{
     color:aqua ;
 }
 footer{
@@ -70,7 +81,4 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
-}
-.rapids-card{
-    color: aqua;
 }
