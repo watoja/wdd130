@@ -43,15 +43,17 @@ h4{
     color:#8ecae6 ;
     text-decoration: none;
 }
-.join{
-    color: #8ecae6;
+.Join{
+    text-align: center;
+    color:#fb8500 ;
     text-decoration: none;
 }
-.book:hover{
-    color: #8ecae6 ;
+.Book:hover{
+    color: #fb8500 ;
 }
-.join:hover{
-    color:#8ecae6 ;
+.Join:hover{
+    color:aqua ;
+    text-decoration: underline;
 }
 .msg h2{
     color:aqua ;
@@ -64,6 +66,7 @@ footer{
     color:aqua ;
 }
 footer a{
+    text-align: center;
     color:#fb8500 ;
     text-decoration: none;
 }
