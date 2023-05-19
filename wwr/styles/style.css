@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lato:ital,wght@1,700&family=Sigmar&family=Source+Serif+Pro:wght@900&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    font-size: 22px;
 }
 nav a{
     text-align: center;
     color: aqua;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -24,6 +28,9 @@ main section{
 }
 body{
     background-color:#023047 ;
+    font-family: "Lato" ;
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color:#023047 ;
@@ -34,22 +41,39 @@ nav a:hover{
 }
 .home-title{
     color:aqua ;
+    font-family:"Crimson text","source serif", "Sigmar";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color:aqua ;
 }
-.book{
-    text-align: center;
-    color:#8ecae6 ;
-    text-decoration: none;
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+    color: aqua;
 }
-.Join{
+.card-img{
+    border: 10px solid #fb8500 ;
+    color: aqua;
+}
+main section img{
+    box-sizing: border-box;
+}
+h2{
+    color: aqua;
+}
+.book, .Join{
     text-align: center;
     color:#fb8500 ;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 .Book:hover{
-    color: #fb8500 ;
+    color: aqua ;
 }
 .Join:hover{
     color:aqua ;
@@ -57,13 +81,25 @@ h4{
 }
 .msg h2{
     color:aqua ;
+    font-family: "Lato";
+    line-height: 1.5em;
 }
-
+#logo_link{
+    padding-top: 5px;
+}
+.msg{
+    padding: 35px;
+}
 .msg p{
     color:aqua ;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
 footer{
     color:aqua ;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     text-align: center;
@@ -85,4 +121,7 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img{
+    padding: 15px;
 }
