@@ -68,7 +68,7 @@ nav a:hover{
 }
 #home-grid{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1gr ;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 .home-title{
     color:aqua ;
@@ -169,22 +169,22 @@ h2{
     padding-bottom: 15px;
 }
 footer{
-    color:#023047 ;
+    color:aqua ;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #fb8500;
+    background-color: #023047;
 }
 footer a{
     text-align: center;
-    color:#fb8500 ;
+    color:aqua ;
     text-decoration: none;
 }
 footer a:hover{
     color:#023047 ;
-    background-color:#023047
+    background-color:aqua;
 }
 .icon{
     width: 80px;
