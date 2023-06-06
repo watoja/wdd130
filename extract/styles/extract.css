@@ -1,0 +1,12 @@
+body{
+    background-color: grey;
+}
+#photo_background{
+    height:100%;
+    width: 100%;
+}
+#photos{
+    border-right: 50em solid grey ;
+    margin-top: 30em;
+    background-color: grey;
+}

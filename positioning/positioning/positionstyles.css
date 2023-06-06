@@ -242,7 +242,7 @@
   background-color: blue; 
   z-index: 1;
   top: 1000px;
-  left:20px;
+  left:0px;
   grid-column: 2/6;
   grid-row: 2/6;
 } 
