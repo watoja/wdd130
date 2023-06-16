@@ -62,9 +62,9 @@ header{
 nav a:hover{
     background-color: #fb8500;
     color: #023047;
-    border-radius: 1px;
-    height: 8px;
-    width: 5px;
+    border-radius: 30cm;
+    height: 18px;
+    width: 60px;
 }
 .home-grid{
     display: grid;
