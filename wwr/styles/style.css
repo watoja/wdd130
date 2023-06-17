@@ -7,6 +7,7 @@
 }
 nav {
     display:flex;
+    text-align: center;
     justify-content: space-around;
 }
 nav a{
@@ -14,7 +15,9 @@ nav a{
     color: aqua;
     text-decoration: none;
     padding: 35px;
+    font-family: 'Sigmar', Times, serif;
 }
+
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -59,13 +62,19 @@ header{
     grid-template-columns: 150px auto;
     background-color:#023047 ;
 }
-nav a:hover{
-    background-color: #fb8500;
-    color: #023047;
-    border-radius: 30cm;
-    height: 18px;
-    width: 60px;
+nav :active{
+    text-decoration: underline;
+
 }
+nav a:hover{
+    color: #fb8500;
+    border-radius: 10cm;
+    height: 18px;
+    width: 40px;
+    text-decoration: underline;
+    
+}
+
 .home-grid{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
@@ -129,7 +138,7 @@ h2{
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius: 50px;
 }.book{
     text-align: center;
 }
@@ -231,6 +240,7 @@ footer .social img{
         margin: 50px auto;
         width: 60%;
     }
+
     #background {
         display: none;
     }
@@ -243,4 +253,58 @@ footer .social img{
         margin-top: 25px;
     }
 }
-            
+#adventures{
+    display: flex;
+    flex-wrap: wrap;
+    color:aqua;
+    padding-right:15px ;
+    
+}
+h1{
+    color: #fb8500;
+    padding-right: 15px;
+}
+#image{
+    display: flex;
+    margin-left: 10px;
+    grid-column: 1/5;
+    grid-row: 1/4;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+.view{
+    margin-right: 10px;
+    width: 20%;
+    margin: 10px;
+}
+.dat{
+    float: left;
+    margin: 15px;
+    border-top-right-radius: 20%;
+    width:65%;
+}
+#row{
+    display: flex;
+    float: left;
+    grid-row: 5/7;
+}
+p1{
+    align-items: center;
+    color: aqua;
+    font-size: 15px;
+    display: inline;
+}
+p1:hover{
+    color: #fb8500;
+    
+}
+.a, .b,.c{
+    border-radius: 50%;
+}
+.icon{
+    display: inline-block;
+    text-align: end;
+    justify-content: space-around;
+    grid-row: 6;
+}
