@@ -302,9 +302,3 @@ p:hover{
 .a, .b,.c{
     border-radius: 50%;
 }
-.icon{
-    display: inline-block;
-    text-align: end;
-    justify-content: space-around;
-    grid-row: 6;
-}
