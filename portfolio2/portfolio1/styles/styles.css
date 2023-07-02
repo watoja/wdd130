@@ -16,7 +16,7 @@ body {
 /* Header styles */
 header {
   padding: 20px;
-  display: relative;
+  display: grid;
   position: static;
 }
 .topic{
