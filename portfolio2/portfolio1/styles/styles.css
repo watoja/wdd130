@@ -146,6 +146,33 @@ p{
 .fine h1{
   color: #de8a02;
 }
+#operation{
+  width:1000px;
+  padding: 20px;
+}
+#t,#q,#r,#s,#v{
+  color:#de8a02;
+  text-align: center;
+}
+#more{
+  padding: 25px;
+  display: inline-block;
+  
+  justify-content: center;
+  padding-left: 35%;
+  
+}
+.opera{
+  display: inline-block;
+  padding: 15px;
+  border: 6px solid #de8a02;
+  background-color: black;
+  
+}
+#op{
+  text-align: center;
+}
+
 
 #background {
   grid-column: 1 / span 2; /* The background image spans both columns */
@@ -228,6 +255,7 @@ footer {
   position: static;
   padding-bottom: 0;
   background-color: black;
+
   color: #de8a02;
   padding: 20px;
 }
